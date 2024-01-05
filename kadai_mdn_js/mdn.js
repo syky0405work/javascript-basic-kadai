@@ -1,3 +1,11 @@
 // MDNより引用
-const today = new Date("2023/8/22");
-console.log(today);
+const today = new Date(2023, 8, 22);
+
+const year = today.getFullYear();
+
+const day = today.getDate();
+
+const month = today.getMonth();
+
+console.log(year + "年" + month + "月" + day + "日");
+
