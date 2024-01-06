@@ -1,5 +1,5 @@
 // MDNより引用
-const today = new Date(2023, 8, 22);
+const today = new Date();
 
 const year = today.getFullYear();
 
